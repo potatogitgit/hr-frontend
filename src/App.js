@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "../node_modules/semantic-ui-css/semantic.min.css"
 import { useState } from 'react';
 import MaterialModal from './components/MaterialModal/MaterialModal';
 import LockScreen from 'react-lock-screen'
 import io from 'socket.io-client'
 
-<script src="http://localhost:3000/socket.io/socket.io.js" />
+<script src="http:localhost:3000/socket.io/socket.io.js" />
 const socket = io.connect("http://localhost:5000")
 
 
